@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway";
+    margin: 0px 165px;
+    background-color: #F4F6F5
+}
+
+
+.header{
+    display: flex;
+    
+    padding-top: 33px;
+    padding-bottom: 33px;
+   justify-content: space-between;
+   
+}
+
+
+a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #2C2D35;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+color:#598D66;
+}
+a:last-child {
+    margin-right: 0;
+    
+}
+.nav__shop{
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    
+}
+.bird{
+  width: 540px;
+  height: 621px;
+}
+
+.main_text{
+    font-weight: 500;
+    font-size: 4.2em;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.black_part{
+    color: #2C2D35;
+}
+
+.green_part{
+    color: #598D66;
+}
+
+.page1-text{
+margin-left: 30px;
+}
+
+.second_text{
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #86928B;
+    line-height: 27px;
+}
+
+#btn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 65px;
+    border: solid #598D66 1px;
+    color: #598D66;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    transition: all 0.5s ease;
+}
+
+#btn:hover{
+    background-color: #598D66;
+    color: #FFF;
+}
